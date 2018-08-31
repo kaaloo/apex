@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sudo sh
 You can specify a destination as below
 
 ```
-curl https://raw.githubusercontent.com/apex/apex/master/install.sh | DEST=$HOME/bin/apex sh
+curl https://raw.githubusercontent.com/apex/apex/master/install.sh | BINDIR=$HOME/bin sh
 ```
 
 this command will install `apex` binary as `$HOME/bin/apex` and you may not need to use `sudo`.
